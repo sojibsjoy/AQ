@@ -1,10 +1,8 @@
 package org.kpsoftwaresolutions.aq;
 
-import android.app.ActionBar;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -95,6 +93,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void learingQuran(View view) {
-
+        connect2web("https://play.google.com/store/apps/dev?id=7174269229329822451");
+    }
+    private void connect2web(String s) {
+        Uri uri = Uri.parse(s); // missing 'http://' will cause crashed
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 }
