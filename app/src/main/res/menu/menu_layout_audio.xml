@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/playItem"
+        android:title="Play Audio"
+        android:icon="@drawable/ic_play"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/pauseItem"
+        android:title="Play/Pause"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aboutUsItem"
+        android:title="About Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/privacyPolicyItem"
+        android:title="Privacy Policy"
+        app:showAsAction="never"/>
+
+</menu>

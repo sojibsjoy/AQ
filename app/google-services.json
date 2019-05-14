@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "388475081531",
+    "firebase_url": "https://smart-tv-238106.firebaseio.com",
+    "project_id": "smart-tv-238106",
+    "storage_bucket": "smart-tv-238106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388475081531:android:83c96a28d8df3e7b",
+        "android_client_info": {
+          "package_name": "org.kpsoftwaresolutions.aq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388475081531-dqe3jva1dos1f713pe1jl0osd25crsev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.kpsoftwaresolutions.aq",
+            "certificate_hash": "194fd01707e902b04bacecf725ba246e271f2f0d"
+          }
+        },
+        {
+          "client_id": "388475081531-ro1ia2kgk1bflgh50d3frgunpfkflma8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjJlimciLhXcApGmDBE259hx4T8zX26a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388475081531-ro1ia2kgk1bflgh50d3frgunpfkflma8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388475081531:android:b73d05c842177a81",
+        "android_client_info": {
+          "package_name": "org.kpsoftwaresolutions.quran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388475081531-rtqmei7ho3i86gl6gtjp1s1mpjgfv6bq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.kpsoftwaresolutions.quran",
+            "certificate_hash": "dee1b67733adcf83c7be274e4454e3a5cdd91fe1"
+          }
+        },
+        {
+          "client_id": "388475081531-ro1ia2kgk1bflgh50d3frgunpfkflma8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjJlimciLhXcApGmDBE259hx4T8zX26a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388475081531-ro1ia2kgk1bflgh50d3frgunpfkflma8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
