@@ -10,14 +10,44 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class AlQuranActivity extends AppCompatActivity {
 
     Intent intent;
-
+    AdView mAdViewQ1,mAdViewQ2,mAdViewQ3,mAdViewQ4,mAdViewQ5,mAdViewQ6,mAdViewQ7,mAdViewQ8,mAdViewQ9,mAdViewQ10,mAdViewQL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_al_quran);
+
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+        MobileAds.initialize(this, "ca-app-pub-5910423341335020~4550602146");
+        mAdViewQ1 = findViewById(R.id.adViewQ1);
+        mAdViewQ2 = findViewById(R.id.adViewQ2);
+        mAdViewQ3 = findViewById(R.id.adViewQ3);
+        mAdViewQ4 = findViewById(R.id.adViewQ4);
+        mAdViewQ5 = findViewById(R.id.adViewQ5);
+        mAdViewQ6 = findViewById(R.id.adViewQ6);
+        mAdViewQ7 = findViewById(R.id.adViewQ7);
+        mAdViewQ8 = findViewById(R.id.adViewQ8);
+        mAdViewQ9 = findViewById(R.id.adViewQ9);
+        mAdViewQ10 = findViewById(R.id.adViewQ10);
+        mAdViewQL = findViewById(R.id.adViewQL);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdViewQ1.loadAd(adRequest);
+        mAdViewQ2.loadAd(adRequest);
+        mAdViewQ3.loadAd(adRequest);
+        mAdViewQ4.loadAd(adRequest);
+        mAdViewQ5.loadAd(adRequest);
+        mAdViewQ6.loadAd(adRequest);
+        mAdViewQ7.loadAd(adRequest);
+        mAdViewQ8.loadAd(adRequest);
+        mAdViewQ9.loadAd(adRequest);
+        mAdViewQ10.loadAd(adRequest);
+        mAdViewQL.loadAd(adRequest);
     }
 
     public void surah1(View view) {

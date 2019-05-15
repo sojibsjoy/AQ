@@ -33,6 +33,17 @@
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:text="@string/pp_part2"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -103,6 +114,17 @@
             android:textSize="18sp"
             android:text="• Cookies and Usage Data"
             android:textColor="#FFFFFF"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -152,6 +174,17 @@
             android:textSize="18sp"
             android:text="• Security Cookies. We use Security Cookies for security purposes."
             android:textColor="#FFFFFF"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -215,6 +248,18 @@
             android:textSize="18sp"
             android:text="• To detect, prevent and address technical issues"
             android:textColor="#FFFFFF"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
+
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -250,6 +295,19 @@
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:text="@string/pp_part9"/>
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
+
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -285,6 +343,18 @@
             android:textSize="18sp"
             android:text="• To protect against legal liability"
             android:textColor="#FFFFFF"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
+
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -383,5 +453,16 @@
             android:textSize="18sp"
             android:text="• By phone number: +880 1837110529"
             android:textColor="#FFFFFF"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewP7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
     </LinearLayout>
 </ScrollView>

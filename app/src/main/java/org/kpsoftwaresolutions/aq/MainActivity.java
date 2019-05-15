@@ -19,7 +19,7 @@ import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private AdView mAdView;
+    AdView mAdView;
     Intent intent;
 
     @Override

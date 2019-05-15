@@ -47,7 +47,7 @@ public class SurahViewActivity extends AppCompatActivity {
     boolean isPlayed = false;
     boolean connected = false;
 
-    private AdView mAdViewS;
+    private AdView mAdViewSF,mAdViewSL;
 
 
     @Override
@@ -61,9 +61,11 @@ public class SurahViewActivity extends AppCompatActivity {
 
         // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
         MobileAds.initialize(this, "ca-app-pub-5910423341335020~4550602146");
-        mAdViewS = findViewById(R.id.adViewS);
+        mAdViewSF = findViewById(R.id.adViewSF);
+        mAdViewSL = findViewById(R.id.adViewSL);
         AdRequest adRequest = new AdRequest.Builder().build();
-        mAdViewS.loadAd(adRequest);
+        mAdViewSF.loadAd(adRequest);
+        mAdViewSL.loadAd(adRequest);
 
         Bundle bundle = getIntent().getExtras();
 

@@ -502,6 +502,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -1041,6 +1052,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -1531,6 +1553,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -2021,6 +2054,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -2511,6 +2555,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -2996,6 +3051,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -3486,6 +3552,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -3976,6 +4053,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -4466,6 +4554,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -4956,6 +5055,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -5446,6 +5556,17 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQ10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
+
         <android.support.v7.widget.CardView
             android:layout_marginBottom="10dp"
             android:clickable="true"
@@ -5593,5 +5714,15 @@
                     <!--android:src="@drawable/ic_info"/>-->
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewQL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="ca-app-pub-5910423341335020/2128097711">
+        </com.google.android.gms.ads.AdView>
     </LinearLayout>
 </ScrollView>
